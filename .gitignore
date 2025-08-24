@@ -1,0 +1,18 @@
+node_modules
+.env
+myenv
+uploads
+# Ignore Python cache files
+__pycache__
+ml/myenv
+ml/uploads
+ml/__pycache__
+server/myenv
+server/uploads
+server/__pycache__
+server/*/__pycache__
+streamlit_scripts/myenv
+streamlit_scripts/uploads
+streamlit_scripts/__pycache__
+streamlit_scripts/*/__pycache__
+

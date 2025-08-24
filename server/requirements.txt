@@ -1,0 +1,28 @@
+Flask>=2.3
+Flask-JWT-Extended>=4.6
+python-dotenv>=1.0
+psycopg2-binary>=2.9
+Flask-Migrate>=4.0
+Flask-CORS>=3.0
+gunicorn>=21.2
+bcrypt>=4.1
+boto3>=1.26
+requests>=2.28
+Pillow>=9.2
+numpy>=1.23
+opencv-python>=4.6
+opencv-python-headless>=4.6
+torch>=1.12
+torchvision>=0.13
+flask-socketio>=5.3
+eventlet>=0.33
+flask-sqlalchemy>=3.0   
+scikit-learn>=1.2
+scipy>=1.10
+matplotlib>=3.6
+pandas>=1.5
+# Additional dependencies for the ML model
+yolov5==6.2
+# Ensure that the yolov5 package is compatible with the installed PyTorch version
+# If you are using a specific version of YOLOv5, you can specify it like this:
+# yolov5==6.2.0     
